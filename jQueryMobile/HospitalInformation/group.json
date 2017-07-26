@@ -1,0 +1,30 @@
+{
+  "doctor": [ 
+  	{
+	    "name": "Bruno",
+	    "position":  "Physician",
+	    "certi" : "Medical PhD ",
+	    "pic" : "bruno_profile.jpeg"
+	}, 
+
+	{
+	    "name": "Douglas",
+	    "position": "Physician",
+	    "certi" : "Medical PhD ",
+	    "pic" : "douglas_profile.jpg"
+	}, 
+
+	{
+	    "name": "Choi",
+	    "position": "Physician",
+	    "certi" : "Medical PhD ",
+	    "pic" : "Myungsuk_Choi.jpg"
+	}, 
+
+	{
+	    "name": "Duris",
+	    "position": "Physician",
+	    "certi" : "Medical PhD",
+	    "pic" : "sungwoo_profile.jpg"
+	} ]
+}

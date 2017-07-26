@@ -1,0 +1,17 @@
+#simple {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+}
+
+span {
+  display: inline-block;
+}
+
+p {
+  margin: 20px 0;
+}
+
+input {
+  width: 240px;
+}
