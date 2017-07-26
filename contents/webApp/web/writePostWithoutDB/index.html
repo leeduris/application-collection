@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>assignment4</title>
+        <meta charset="UTF-8">
+        <link href="css/main.css" type="text/css" rel="stylesheet">
+        <script type="text/javascript" src="scripts/main.js"></script>
+    </head>
+
+    <body>
+
+        <div id = 'header'>
+
+            <!-- main heading and sub-heading -->
+        <header>
+                <h1>Write to Post Without DB</h1>
+        </header>
+
+        </div>
+
+    <!-- division for blog form and postings -->
+    <div id="blog">
+
+        <!-- blog form -->
+        <section id='editing'>
+            <h3>Submit your comments...</h3><br>
+                <form action="#" onsubmit="return false;">
+                  <label>Name</label>
+                  <input type="text" id="name" name="pname" value="Jeromy"><br>
+                  <label>Email</label>
+                  <input type="email" id="email" name="email" value="jarom@gmail.com"><br>
+                  <label>Title</label>
+                  <input type="text" id="posttitle" name="title" value="Good Work, Good Salary"><br>
+                  <label>Your Comments</label>
+                  <textarea name="memo" id="postcontent" rows="12">Donec non lacinia urna. Maecenas laoreet, est nec auctor ultrices, risus diam venenatis elit, et pellentesque urna felis sed elit. Donec pretium nulla ut erat rhoncus, in congue ligula pharetra. Aliquam id dui maximus, sodales tortor vel, tempus tellus. Pellentesque aliquam elit nibh, rhoncus condimentum ipsum efficitur ac. Vivamus posuere arcu faucibus porta vestibulum. Curabitur tristique tellus non dolor euismod ornare.</textarea>
+                  <br>
+                  <button onClick="addPost();" id="add" value="Save">Post</button>
+                </form>
+        </section>
+
+        <!-- blog posting -->
+        <section id='posting'>
+            <h3>Comments...</h3><br>
+            <div id='scrollposting'>
+                <p><b>【4】 Title: Experienced worker with hogh pay  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<cite>✐ James</cite></b>
+                <p>One experienced workers work more efficiently than several inexperienced workers. They make least damage and loss on the business because they know how to deal with problems from their experience.</p>
+                <p><b>【3】 Inexperienced workers with lower pay&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<cite>✐ Geroge</cite></b>
+                <p>Some work doesn't need high quality skills or experience, it needs just labor or time. Some experienced workers are too expensive so the company needs more budget, but their work is not worth the high pay</p>
+                <p><b>【2】 Listen to others.....&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<cite>✐ Adam</cite></b></p>
+                <p>If a supervisor listen to others and accept their ideas, the team members feel proud of themselves and work harder as they feel responsible for the decision.</p>
+                <p><b>【1】 Don't listen to others &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<cite>✐ Nicolas</cite></b></p>
+                <p>One of the supervisor's jobs is making a fast and good decision.</p>
+            </div>
+        </section>
+    </div>
+    <p></p>
+
+    <!-- footer section -->
+    <footer>
+        <section id="footer">
+            <p></p>
+        </section>
+    </footer>
+
+    </body>
+</html>

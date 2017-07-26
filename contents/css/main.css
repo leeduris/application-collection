@@ -1,0 +1,438 @@
+/* @Embedding fonts */
+@font-face {
+    font-family: 'junction_regularregular';
+    src: url('web fonts/junctionregular_regular_macroman/Junction-webfont.eot');
+    src: url('web fonts/junctionregular_regular_macroman/Junction-webfont.eot?#iefix') format('embedded-opentype'),
+         url('web fonts/junctionregular_regular_macroman/Junction-webfont.woff') format('woff'),
+         url('web fonts/junctionregular_regular_macroman/Junction-webfont.ttf') format('truetype'),
+         url('web fonts/junctionregular_regular_macroman/Junction-webfont.svg#junction_regularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'procionoregular';
+    src: url('web fonts/prociono_regular_macroman/Prociono-Regular-webfont.eot');
+    src: url('web fonts/prociono_regular_macroman/Prociono-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('web fonts/prociono_regular_macroman/Prociono-Regular-webfont.woff') format('woff'),
+         url('web fonts/prociono_regular_macroman/Prociono-Regular-webfont.ttf') format('truetype'),
+         url('web fonts/prociono_regular_macroman/Prociono-Regular-webfont.svg#procionoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/* @media Rule */
+
+	/* Large desktop */
+	@media screen and (min-width: 1200px)
+	    body {
+	 	    background-color: #FFFBD0;
+    	}
+
+    	#headerImg p {
+			color: orange;
+			font: 2.2em Goudy Old Style,serif;
+		}
+
+		.headerNav a {
+			color: red;
+			font-size: 1.1em;
+			bottom: 1.0em;
+			margin: 0.3em;
+		}
+
+		.navUl li {
+			list-style:none;
+			line-height: 2.0em;
+			font-size: 1.1em;
+			color: orange;
+		}
+
+		h2 {
+			font: 1.2em Rockwell, serif;
+		}
+
+		h3{
+			font: 1.1em Papyrus,Fantasy;
+		}
+
+    	h4 {
+			font: 1.0em junction_regularregular;
+		}
+
+		.foot p {
+			font-size: 0.7em;
+		}
+
+	}
+
+	/* landscape and desktop to Large desktop */
+	@media screen and (min-width: 979px) and (max-width: 1200px){
+	    body {
+    	    background-color: #ffefd5 ;
+    	}
+
+		#headerImg p {
+			color: red;
+			font: 2em Georgia,serif;
+		}
+
+		.headerNav a {
+			color: orange;
+			font-size: 0.9em;
+			bottom: 1.0em;
+			margin: 0.3em;
+		}
+
+		.navUl li {
+			list-style:none;
+			line-height: 1.7em;
+			font-size: 0.8em;
+			color: red;
+		}
+
+		h2 {
+			font: 0.9em Goudy Old Style, Serif;
+		}
+
+		h3 {
+			font: 0.9em Brush Script Std, cursive;
+		}
+
+    h4 {
+			font: 0.7em Papyrus,Fantasy;
+		}
+
+		.foot p {
+			font-size: 0.6em;
+		}
+	}
+
+	/* Portrait tablet to landscape and desktop */
+	@media screen and (min-width: 768px) and (max-width: 979px){
+	    body {
+    	    background-color: #ffefd5 ;
+    	}
+
+		#headerImg p {
+			color: orange;
+			font: 1.5em Avant Garde,sans-serif;
+		}
+
+		.headerNav a {
+			color: red;
+			font-size: 0.8em;
+			bottom: 1.0em;
+			margin: 0.3em;
+		}
+
+		.navUl li {
+			list-style:none;
+			line-height: 1.6em;
+			font-size: 0.7em;
+			color: orange;
+		}
+
+		h2 {
+			font: 0.8em Century Gothic, Sans-serif;
+
+		}
+
+		h3 {
+			font: 0.8em Papyrus,Fantasy;
+		}
+
+    	h4 {
+			font: 0.6em Papyrus,Fantasy;
+		}
+
+		.foot p {
+			font-size: 0.5em;
+		}
+
+	}
+
+
+	/* Landscape phone to portrait tablet */
+	@media screen and (max-width: 768px){
+	    body {
+    	    background-color:  #007FFF;
+    	}
+
+    	#headerImg p {
+			color: red;
+			font: 1.1em Lucida Bright,serif;
+		}
+
+		.headerNav a {
+			color: orange;
+			font-size: 0.7em;
+			bottom: 1.0em;
+			margin: 0.3em;
+		}
+
+		.navUl li {
+			list-style:none;
+			line-height: 1.5em;
+			font-size: 0.6em;
+			color: red;
+		}
+
+		h2 {
+			font: 0.7em Goudy Old Style, Serif;
+
+		}
+
+		h3 {
+			font: 0.7em Brush Script Std, cursive;
+		}
+
+    h4 {
+			font: 0.6em Papyrus,Fantasy;
+		}
+
+		.foot p {
+			font-size: 0.4em;
+		}
+	}
+
+	/* Landscape phones and down */
+	@media screen and (max-width: 480px){
+	    body {
+    	    background-color: #ffdab9;
+    	}
+
+  #headerImg p {
+			color: orange;
+			font: 0.6em Arial,sans-serif;
+		}
+
+		.headerNav a {
+			color: red;
+			font-size: 0.2em;
+			bottom: 1.5em;
+			margin: 0.3em;
+		}
+
+		.navUl li {
+			list-style:none;
+			line-height: 1.4em;
+			font-size: 0.7em;
+			color: orange;
+		}
+
+		h2 {
+			font: 0.2em Century Gothic, Sans-serif;
+		}
+
+		h3 {
+			font: 0.6em Papyrus,Fantasy;
+		}
+
+    	h4 {
+			font: 0.4em Papyrus,Fantasy;
+		}
+
+		.foot p {
+			font-size: 0.2em;
+		}
+	}
+
+
+	/* common application - index/about/blogroll.html  */
+
+	body {
+		margin: 3% 5% 3% 5%;
+		line-height: 150%;
+		font-size: 100%;
+	}
+
+	h2 {
+		font-weight: bolder;
+		color: ‎#4B0082;
+	}
+
+	h3 {
+		font-weight: bolder;
+		color: ‎#882D17;
+	}
+
+
+	a {
+		text-decoration: underline;
+		color: green;
+	}
+
+
+	img {
+		width: 15%;
+		height: 15%;
+		border: solid orange 1px;
+	}
+
+
+	/* common application - header */
+
+	#headerImg {
+		background-image: url("../image/headerBackImg.jpg");
+		background-repeat: no-repeat;
+		background-size: 100%;
+		margin-bottom: 6%;
+		width: 80%;
+	}
+
+	#headerImg img {
+		width: 12%;
+		height: auto;
+		margin-right: 3%;
+		vertical-align: middle;
+	}
+
+	#headerImg p {
+		width: 90%;
+	  	position: relative;
+		left: 5%;
+		top: 0.9em;
+	}
+
+	.headerNav {
+		width: 60%;
+		text-align: right;
+		position: relative;
+		right: -39%;
+	}
+
+	.headerNav a {
+		font-style: italic;
+		border-bottom: solid white;
+		position: relative;
+	}
+
+
+	/* index.html only */
+
+	.entity {
+		width: 80%;
+		float: left;
+		margin-bottom: 3%;
+		text-align: justify;
+		border-top: solid gray;
+	}
+
+	.entity img{
+		float: left;
+		margin-right: 3%;
+		margin-bottom: 2%;
+		margin-left: 2%;
+	}
+	
+	.entity h2 {
+		margin-left: 2%;
+	}
+	
+	.entity h4 {
+		margin-top: 3%;
+	}	
+	
+	.entity cite{
+		color: #C16B44;
+		font-weight: bold;
+		font-size: 110%;
+	}
+	
+	.entity .contentlink {
+		margin-left: 20%;
+	}
+	
+	.entity a{
+		line-height: 170%;
+	}
+
+	.entity:nth-child(odd){
+		background-color: #E6E3F7;
+	}
+
+	.entity:nth-child(even){
+		background-color: #B4E9B8;
+	}
+
+	.navUl {
+		float: right;
+		width: 7%;
+		border-left: solid orange;
+		position: fixed;
+		top: 30%;
+		left: 80%;
+		padding-left: 2%;
+	}
+
+  .navUl a {
+		text-decoration:underline;
+    	color: #213073;
+    	font-weight: bold;
+    	font-family: procionoregular;
+	}
+
+	/* about.html only */
+	.aboutImg {
+		border-top: solid gray;
+		margin-bottom: 3%;
+	}
+
+	.aboutImg p {
+		display: inline;
+	}
+
+	.aboutContact ul {
+		list-style-type: square;
+		line-height: 250%;
+		font-size: 1.0em;
+	}
+
+	.aboutContact h3 {
+		text-align: justify;
+	}
+
+	.aboutContact h4 {
+		font-style: italic;
+		color: orange;
+		text-decoration: underline;
+	}
+
+	/* blogroll.html only */
+
+	.blogroll {
+		margin-bottom: 7%;
+		border-top: solid gray;
+	}
+
+	.blogroll h2 {
+		padding-bottom: 2%;
+	}
+
+	.blogroll img{
+		float: left;
+		width: 10%;
+		height: auto;
+		margin-right: 5%;
+	}
+
+	.blogroll ul{
+		list-style-type: circle;
+	}
+
+	.blogroll li{
+		text-align:left;
+	}
+
+	/* common application - footer */
+
+	.foot {
+		clear: both;
+		border-top: solid gray 1px;
+		margin-top: 5%;
+		font-family: Lucida Handwriting, Arial, Helvetica, sans-serif;
+		color: #4682b4;
+	}
