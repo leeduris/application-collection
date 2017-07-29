@@ -1,7 +1,7 @@
 var myXML;
 var myHospital;
 var myGroup;
-var doctorID;
+var studentID;
 
 
 $(document).on('pagebeforeshow', '#home', function () {
@@ -105,28 +105,28 @@ function parseHospital(hospital) {
 }
 
 
-$(document).on("click", "#doctormenu >li", function () {
+$(document).on("click", "#studentmenu >li", function () {
 
-    doctorID = $(this).closest("li").attr("li-id");
-    doctorPage(doctorID);
+    studentID = $(this).closest("li").attr("li-id");
+    studentPage(studentID);
 });
 
-function doctorPage(id) {
+function studentPage(id) {
 
     //set student profile image
-    $("#doctor-content .ui-block-a").html("<img src='_css/images/" + myGroup.doctor[id].pic + "' class='doctorpic'>");
+    $("#student-content .ui-block-a").html("<img src='_css/images/" + myGroup.student[id].pic + "' class='studentpic'>");
 
     // add name, login and studentId
-    $("#doctor-content .ui-block-b").html("<p><strong>Name</strong>: " + myGroup.doctor[id].name + "</p>");
-    $("#doctor-content .ui-block-b").append("<p><strong>Position</strong>: " + myGroup.doctor[id].position + "</p>");
-    $("#doctor-content .ui-block-b").append("<p><strong>Certification</strong>: " + myGroup.doctor[id].certi + "</p>");
+    $("#student-content .ui-block-b").html("<p><strong>Name</strong>: " + myGroup.student[id].name + "</p>");
+    $("#student-content .ui-block-b").append("<p><strong>Login</strong>: " + myGroup.student[id].login + "</p>");
+    $("#student-content .ui-block-b").append("<p><strong>Student ID</strong>: " + myGroup.student[id].id + "</p>");
 
 
 }
 
 // things to run only once
 $(document).ready(function () {
-    $("#studentheader").html("<h1>Doctor Profile</h1>");
+    $("#studentheader").html("<h1>Student Profile</h1>");
 
 });
 
@@ -142,7 +142,7 @@ $(document).on("pagebeforeshow", "#terms", function () {
 
             $("#termsCollapsible").append(
                 "<section data-role='collapsible' data-collapsed-icon='carat-d' data-expanded-icon='carat-u'>" +
-                "<h4 class='ui-title'>" + $(this).text() + "</h4>" +
+                "<h2 class='ui-title'>" + $(this).text() + "</h2>" +
                 "<p>" + $(this).next().text() + "</p>" +
                 "<img src='_images/" + $(this).next().next().text() + "' height='50px' width='50px' alt='term icon'>" +
                 "</section>"

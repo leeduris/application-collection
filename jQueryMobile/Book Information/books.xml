@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <leesungw>
 	<site>Books Information</site>
-	<programmer program="Compter Programmer" number="Oakville">Duris Communication</programmer>
+	<student program="Compter Programmer" number="991419484">Sungwoo Lee</student>
 	<book>
 		<name image="_images/book1.jpg">The Throwback Special</name>
 		<abbr>Throw</abbr>

@@ -12,7 +12,7 @@ $(document).on("pagecreate", "#home", function(){
 		success : function(xml) {
 			xmlData = xml;
 			console.log(xmlData);
-			buildmenu(xml, "Duris")
+			buildmenu(xml, "Assignment 2")
 		},
 		error: function (e) {
 			alert(e.status + "-" + e.statusText);
@@ -25,9 +25,9 @@ function buildmenu(xml, title){
 	var n = 0;
 	$("h1").html(title);
 	$("h1").append("<br>" + $(xml).find("site").text());
-	$("h4").html($(xml).find("programmer").text() + 
-				 " | " + $(xml).find("programmer").attr("number") +
-				 " | " + $(xml).find("programmer").attr("program")
+	$("h4").html("Student Name: " + $(xml).find("student").text() + 
+				 "<br>Student ID: " + $(xml).find("student").attr("number") +
+				 "<br>Student Course: " + $(xml).find("student").attr("program")
 	);
 	
 	$("#navhome").html("<ul id='listhome'><li>" +
