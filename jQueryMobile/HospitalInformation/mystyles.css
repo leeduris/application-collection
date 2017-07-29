@@ -1,17 +1,17 @@
 .ui-icon-bruno:after {
-	background-image: url("images/bruno_profile.jpeg");
+	background-image: url("bruno_profile.jpeg");
 	background-size: 22px 22px;
 }
 .ui-icon-douglas:after {
-	background-image: url("images/douglas_profile.jpg");
+	background-image: url("douglas_profile.jpg");
 	background-size: 22px 22px;
 }
 .ui-icon-choi:after {
-	background-image: url("images/Myungsuk_Choi.jpg");
+	background-image: url("Myungsuk_Choi.jpg");
 	background-size: 22px 22px;
 }
 .ui-icon-lee:after {
-	background-image: url("images/sungwoo_profile.jpg");
+	background-image: url("sungwoo_profile.jpg");
 	background-size: 22px 22px;
 }
 .studentpic {
@@ -26,7 +26,7 @@
 	padding-right : 5px;
 }
 .ui-icon-sheridan:after {
-	background-image: url("images/sheridan.jpg");
+	background-image: url("sheridan.jpg");
 	background-size: 22px 22px;
 }
 #hostpitalInfo1, #infoTitle {

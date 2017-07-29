@@ -114,7 +114,7 @@ $(document).on("click", "#studentmenu >li", function () {
 function studentPage(id) {
 
     //set student profile image
-    $("#student-content .ui-block-a").html("<img src='_css/images/" + myGroup.student[id].pic + "' class='studentpic'>");
+    $("#student-content .ui-block-a").html("<img src='" + myGroup.student[id].pic + "' class='studentpic'>");
 
     // add name, login and studentId
     $("#student-content .ui-block-b").html("<p><strong>Name</strong>: " + myGroup.student[id].name + "</p>");
@@ -144,7 +144,7 @@ $(document).on("pagebeforeshow", "#terms", function () {
                 "<section data-role='collapsible' data-collapsed-icon='carat-d' data-expanded-icon='carat-u'>" +
                 "<h2 class='ui-title'>" + $(this).text() + "</h2>" +
                 "<p>" + $(this).next().text() + "</p>" +
-                "<img src='_images/" + $(this).next().next().text() + "' height='50px' width='50px' alt='term icon'>" +
+                "<img src='" + $(this).next().next().text() + "' height='50px' width='50px' alt='term icon'>" +
                 "</section>"
             );
 
@@ -187,7 +187,7 @@ $(document).on("pageshow", "#maps", function() {
         //marker
         hospitalLoc = new google.maps.Marker({
             map: map,
-            icon: "_images/pushpin.gif",
+            icon: "pushpin.gif",
             animation: google.maps.Animation.DROP,
             position: mapHospital,
             title: 'Hospital'
@@ -195,7 +195,7 @@ $(document).on("pageshow", "#maps", function() {
 
         campusLoc = new google.maps.Marker({
             map: map,
-            icon: "_images/pushpin.gif",
+            icon: "pushpin.gif",
             animation: google.maps.Animation.DROP,
             position: mapCampus,
             title: 'Oakville Campus'
