@@ -12,7 +12,7 @@ $(document).on("pagecreate", "#home", function(){
 		success : function(xml) {
 			xmlData = xml;
 			console.log(xmlData);
-			buildmenu(xml, "Assignment 2")
+			buildmenu(xml, "Book-Information")
 		},
 		error: function (e) {
 			alert(e.status + "-" + e.statusText);
