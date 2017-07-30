@@ -1,10 +1,3 @@
-/*
- * This is NOT free software. You may learn from and experiment with this code but you may not redistribute it or use it in any commercial application without the explicit prior consent of the author.
- * Burak Kanber
- * burak@burakkanber.com
- * October 2012
- */
-
 var canvas; 
 var ctx;
 var height = 400;
