@@ -1,7 +1,4 @@
-/*
- * Expected keys in object:
- * rooms, area, type
- */
+
 var Node = function(object) {
     for (var key in object)
     {
